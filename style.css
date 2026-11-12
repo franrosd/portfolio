@@ -228,6 +228,20 @@ main, .site-header, footer { position: relative; z-index: 1; }
   object-fit: contain;
   border-radius: 16px;  
 }
+.case-screenshot-frame a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.case-screenshot-frame a img {
+  transition: transform 0.3s ease;
+}
+
+.case-screenshot-frame a:hover img {
+  transform: scale(1.02);
+}
 .case-metric { background:#F4F0F8; border-radius:15px; padding:19px 15px; min-height:105px; display:flex; flex-direction:column; justify-content:center; }
 .case-metric:nth-child(2n) { background:#F0F4FA; }
 .case-metric strong { font:600 clamp(1.45rem,3vw,2rem) var(--serif); color:#80699E; }
