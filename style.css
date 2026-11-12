@@ -242,6 +242,13 @@ main, .site-header, footer { position: relative; z-index: 1; }
 .case-screenshot-frame a:hover img {
   transform: scale(1.02);
 }
+.screenshot-caption {
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #8d7aa5;
+  letter-spacing: 0.3px;
+}
 .case-metric { background:#F4F0F8; border-radius:15px; padding:19px 15px; min-height:105px; display:flex; flex-direction:column; justify-content:center; }
 .case-metric:nth-child(2n) { background:#F0F4FA; }
 .case-metric strong { font:600 clamp(1.45rem,3vw,2rem) var(--serif); color:#80699E; }
