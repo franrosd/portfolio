@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
+  <rect width="600" height="750" fill="#EAF2FA"/>
+  <circle cx="300" cy="255" r="105" fill="#D5C6E9"/>
+  <path d="M95 700c20-175 100-260 205-260s185 85 205 260" fill="#D5C6E9"/>
+  <text x="300" y="590" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#625D70">Your photo here</text>
+  <text x="300" y="635" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#77718A">Replace profile-placeholder.svg</text>
+</svg>
